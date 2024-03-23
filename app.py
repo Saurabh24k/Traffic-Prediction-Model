@@ -1,10 +1,10 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS
+# from flask_cors import CORS
 from joblib import load
 import pandas as pd
 
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
 
 # Loading the trained model and preprocessing pipeline
 model = load('traffic_volume_prediction_model.joblib')
