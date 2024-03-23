@@ -65,11 +65,11 @@ python make_prediction.py
 The model's performance is visualized through the following graphs:
 
 ### Histogram of Residuals
-![Histogram of Residuals](path/to/Histogram.png)
+![Histogram of Residuals]([path/to/RvP.png](https://github.com/Saurabh24k/Traffic-Prediction-Model/blob/main/Histogram.png))
 *The histogram illustrates the distribution of the residuals (predicted value minus the actual value), which should ideally resemble a normal distribution centered around zero.*
 
 ### Residuals vs. Predicted Values
-![Residuals vs. Predicted Values](path/to/RvP.png)
+![Residuals vs. Predicted Values]([path/to/Histogram.png](https://github.com/Saurabh24k/Traffic-Prediction-Model/blob/main/RvP.png))
 *This scatter plot shows the residuals plotted against the predicted traffic volume. A random dispersion of points suggests that the model predictions are consistent across different values.*
 
 ## Requirements
